@@ -1,0 +1,8 @@
+<div class="container main-page">
+  
+  <div class="col-lg-6 col-centered search-panel">
+    <p class="lead">Github Username</p>
+    <input ng-keyup="$event.keyCode == 13 ? main.triggerSearch() : null" ng-model="main.entry.username"
+      type="text" class="form-control" placeholder="Enter a Github Username. Press enter to search...">
+  </div>
+</div>
