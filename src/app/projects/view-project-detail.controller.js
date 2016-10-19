@@ -6,7 +6,7 @@
     .controller('ViewProjectDetailController', ViewProjectDetailController);
 
   /** @ngInject */
-  function ViewProjectDetailController($timeout, toastr, $stateParams, GithubDataService) {
+  function ViewProjectDetailController($stateParams, GithubDataService, $log, $state) {
     var vm = this;
 
     var projectName = $stateParams.projectName;

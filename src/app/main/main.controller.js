@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, toastr, $state) {
+  function MainController(toastr, $state) {
     var vm = this;
 
     vm.entry = {
